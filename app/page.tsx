@@ -175,20 +175,6 @@ export default async function Home() {
 
       <footer className="border-t border-blue-100 bg-white">
         <div className="container flex flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
-          <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
-            <Heart className="h-6 w-6 text-blue-500 animate-pulse" />
-            <p className="text-center text-sm text-gray-600 md:text-left">
-              Built with 💕 by{" "}
-              <a
-                href="https://github.com/beilunyang"
-                target="_blank"
-                rel="noreferrer"
-                className="font-medium hover:text-blue-500 transition-colors"
-              >
-                BeilunYang
-              </a>
-            </p>
-          </div>
         </div>
       </footer>
     </div>
