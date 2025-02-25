@@ -22,14 +22,6 @@ export default async function Home() {
             </Link>
           </div>
           <div className="flex items-center space-x-6">
-            <Link
-              href="https://github.com/beilunyang/moepush"
-              target="_blank"
-              rel="noreferrer"
-              className="text-sm font-medium text-gray-600 hover:text-blue-500 transition-colors"
-            >
-              GitHub
-            </Link>
             {session?.user ? (
               <UserNav user={session.user} />
             ) : (
